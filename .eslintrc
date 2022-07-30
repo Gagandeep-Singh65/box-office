@@ -33,8 +33,10 @@
     // This rule is aimed to enforce consistent function types for function components.
     // By default it prefers function declarations for named components and function expressions for unnamed components.
     // added the following line of code
-    "react/function-component-definition": "off"
+    "react/function-component-definition": "off",
     // To disable the warning about console.log add the following line of code manually
-    // "no-console": [0]
+    "no-console": [0],
+    // To disable the warning:'input' is assigned a value but never used; add the following line of code manually
+    "no-unused-vars": 0
   }
 }
