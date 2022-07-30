@@ -28,7 +28,12 @@
     "react-hooks/exhaustive-deps": "warn",
     // add thes two lines manually
     "arrow-body-style": [0],
-    "prefer-arrow-callback": [0]
+    "prefer-arrow-callback": [0],
+    // to disable the warning message: Function component is not a function declaration:
+    // This rule is aimed to enforce consistent function types for function components.
+    // By default it prefers function declarations for named components and function expressions for unnamed components.
+    // added the following line of code
+    "react/function-component-definition": "off"
     // To disable the warning about console.log add the following line of code manually
     // "no-console": [0]
   }
